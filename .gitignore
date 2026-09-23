@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# Never commit real personal export files -- only synthetic samples in examples/ and tests/fixtures/
+*.normalized.csv
+*.normalized.json
+/data/
+/private/
+
+# OS
+.DS_Store
+Thumbs.db
